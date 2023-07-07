@@ -38,6 +38,6 @@ class TripsController < ApplicationController
   end
 
   def trip_params
-    params.permit(:user_id, :owner_id, :assignee_id, :status, :location, :eta, :etc)
+    params.permit(:owner_id, :assignee_id, :status, :location, :eta, :etc)
   end
 end

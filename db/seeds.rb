@@ -17,8 +17,9 @@ User.create([
 Trip.create({
   status: "Not Started",
   owner: User.first,
-  owner_name: "#{User.first.firstname} #{User.first.lastname}"
-  assignee: "#{User.second.firstname} #{User.second.lastname}",
+  owner_name: "#{User.first.firstname} #{User.first.lastname}",
+  assignee: User.second,
+  assignee_name: "#{User.second.firstname} #{User.second.lastname}",
   location: "New York City",
   eta: Time.zone.now + 1.week,
   etc: Time.zone.now + 2.weeks,

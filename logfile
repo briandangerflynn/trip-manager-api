@@ -65,3 +65,6 @@
 2023-07-06 17:43:34.379 EDT [13530] ERROR:  database "trip_management_api_development" is being accessed by other users
 2023-07-06 17:43:34.379 EDT [13530] DETAIL:  There is 1 other session using the database.
 2023-07-06 17:43:34.379 EDT [13530] STATEMENT:  DROP DATABASE IF EXISTS "trip_management_api_development"
+2023-07-06 21:04:24.487 EDT [20747] ERROR:  database "trip_management_api_development" is being accessed by other users
+2023-07-06 21:04:24.487 EDT [20747] DETAIL:  There are 2 other sessions using the database.
+2023-07-06 21:04:24.487 EDT [20747] STATEMENT:  DROP DATABASE IF EXISTS "trip_management_api_development"
